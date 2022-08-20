@@ -3,9 +3,9 @@ import { HiMenuAlt1 } from "react-icons/hi";
 
 const Header = () => {
   return (
-    <div>
-      <div class="container mx-auto lg:pt-3 relative z-50">
-        <div class="navbar bg-transparent">
+    <div className="bg-accent">
+      <div class="container  mx-auto lg:pt-3 relative z-50">
+        <div class="navbar ">
           <div class="flex-1">
             <a class="btn btn-secondary px-10 normal-case text-white text-xl">LOGO</a>
           </div>
