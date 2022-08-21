@@ -29,19 +29,19 @@ const Banner = () => {
                 <input
                   type="text"
                   placeholder="What are you looking here eg. freelancer, projects"
-                  className="p-3 pl-10 bg-white border-2 border-secondary focus:outline-primary  w-full  rounded-xl"
+                  className="p-3 pl-10 bg-white border-2 border-secondary focus:outline-primary  w-full shadow-xl  rounded-xl"
                 />
               </div>
           <div className="flex">
             <span className=" mt-3">
               <span className="m-2 text-xl font-bold">Search:</span>
-              <span className="btn btn-sm btn-outline-secondary bg-muted px-2 m-2" id="color">
+              <span className="btn  btn-sm bg-[#B1B1B1] text-black px-2 m-2" id="color">
                 Logo Design
               </span>
-              <span className="btn btn-sm btn-outline-secondary bg-muted px-2 m-2" id="color">
+              <span className="btn  btn-sm bg-[#B1B1B1] text-black px-2 m-2" id="color">
                 SEO
               </span>
-              <span className="btn btn-sm btn-outline-secondary bg-muted px-2 m-2 button" id="color">
+              <span className="btn  btn-sm bg-[#B1B1B1] text-black px-2 m-2" id="color">
                 Wordpress
               </span>
             </span>

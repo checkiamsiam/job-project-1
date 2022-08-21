@@ -13,7 +13,7 @@ const OurChoice = () => {
         <div className="w-1/3 flex justify-center items-center">
           <div>
             <h1 className="text-2xl">Lorem ipsum dolor sit amet, consectetur</h1>
-            <p className="mt-5 text-6xl text-white">Our Choices with different technology</p>
+            <p className="mt-5 text-6xl text-white font-semibold">Our Choices with different technology</p>
           </div>
         </div>
         <div className="grid grid-cols-3 gap-10 w-2/3 ">

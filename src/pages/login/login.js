@@ -1,16 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HiOutlineMail } from "react-icons/hi";
 import { BiLock } from "react-icons/bi";
 import usePasswordToggle from "../../hooks/usePasswordToggle";
 
 const Login = () => {
-  // const navigate = useNavigate();
-  // const location = useLocation();
-  // const from = location.state?.from?.pathname || "/";
-  // const [signInWithEmailAndPassword, user, loading, error] = useSignInWithEmailAndPassword(auth);
-  // const [sendPasswordResetEmail, sending, resetError] = useSendPasswordResetEmail(auth);
+ 
 
   const {
     register,
@@ -18,14 +14,7 @@ const Login = () => {
     formState: { errors },
   } = useForm();
   const [inputType, icon] = usePasswordToggle();
-  // const [token, loadingToken] = useAddUserInfo(user);
-  // const [role] = useUserRole(user);
 
-  // useEffect(() => {
-  //   if (token) {
-  //     navigate(from, { replace: true });
-  //   }
-  // }, [user, navigate, from, token]);
 
   const onSubmit = (data) => {};
 
