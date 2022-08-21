@@ -3,6 +3,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { HiMenuAlt1 } from "react-icons/hi";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
+import Login from "../../pages/login/login";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,9 @@ const Header = () => {
           <div class="flex-none">
             <div className="md:block hidden">
               <div className="flex gap-5 ">
-                <button className="border-2 border-black  btn btn-ghost ">Login</button>
+                <label for="loginModal" class="border-2 border-black  btn btn-ghost modal-button">
+                  Login
+                </label>
                 <button className="btn btn-primary text-white">Sign Up</button>
                 <button className="btn btn-secondary text-white">Be a freelancer</button>
               </div>
@@ -44,6 +47,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <Login></Login>
     </div>
   );
 };
